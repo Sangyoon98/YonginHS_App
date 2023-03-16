@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+<ImageView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:src="@drawable/school"/>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="사진출처:네이버 지식백과\n\n
+		분류:고등학교\n
+		개교일:1954년 04월 06일\n
+		구분:공립\n
+		소재지:경기 용인시 금학로253번길 20-21(역북동 444-1) \n
+		교훈:성실 명랑 협동\n
+		교목:향나무\n
+		교화:장미\n
+		육성종목:테니스, 육상, 리듬체조\n
+		유명 졸업생:용인시장 윤병희, 경기도의원 홍영기, 용인시 의회의장 이정문\n\n
+		
+		교육이념은 도덕적이고 창의적인 용고인 육성이라는 교육이념 아래 높은 이상을 지닌 인간교육, 인성교육의 내실화, 독서의 생활화를 지표로 삼고 있다.
+		1954년 4월에 용인고등학교로 개교하여 1976년 3월에 용인여자고등학교로 변경하였다. 1981년 3월 용인 중,고등학교가 분리되고 1984년 7월 27일 신축교사로 이전하였다. 1996년 3월 용인고등학교로 교명을 변경하였다. 교내시설은 전산실, 컴퓨터실, 강당 겸 체육관, 테니스코트 등을 갖추었다.
+		클럽활동은 34개의 부서의 다양한 클럽활동 운영을 통한 전인교육과 클럽활동 자원봉사자로 학부모 및 지역인사의 참여로 열린교육을 실천하고 있다. 자매결연은 1983년 4월 통신여단인 육군 제 9053부대와 결연을 맺고 상호친선 방문을 갖는 등 협력에 힘쓰고 있으며, 테니스부 육성을 위하여 거평그룹과 97년 6월 자매결연을 맺어 좋은 성적을 거두고 있다.
+		특기사항은 다음과 같다. 첫째, 연중 꽃피는 학교운영과 공원화된 학교환경 조성으로 정서순화 함양화 기본 질서확립에 도움이 되고 있다. 둘째, 풍물반의 활동과 매년 10월에 열리는 클럽활동 관련 축제인 성산제 개최로 자기 적성에 맞는 분야에서 활동하는 체험학습의 기회를 제공한다. 셋째, 테니스부는 전국대회 단식, 경기도대회 단체전, 개인전에서 화려한 전적을 가지고 있다. 넷째, 동문회활동으로 학생들의 면학의욕을 고취시키는 여러 장학회 활동이 있다."/>
+</LinearLayout>
+</ScrollView>

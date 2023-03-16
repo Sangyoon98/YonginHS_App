@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="#ffffff"
+	android:gravity="center"
+    android:orientation="vertical">	
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="135dp"
+		android:gravity=""
+		android:orientation="horizontal">
+		<Button
+			android:id="@+id/logo"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="@drawable/logo"
+            android:elevation="5dp"/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"	
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="※원하시는 메뉴를 선택해주세요※"
+            android:elevation="5dp"/>
+
+	</LinearLayout>	
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"	
+		android:layout_marginTop="5dp">	
+		<Button
+			android:id="@+id/bt1"
+			android:layout_height="120dp"
+			android:layout_width="120dp"
+			android:background="@drawable/mbtn"
+			android:text="공지사항"
+            android:elevation="5dp"/>
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"	
+			android:layout_marginLeft="2dp"
+			android:orientation="vertical">
+		<Button
+			android:id="@+id/bt2"
+			android:layout_height="59dp"
+			android:layout_width="120dp"		
+			android:background="@drawable/mbtn"
+			android:text="가정통신문"
+            android:elevation="5dp"/>
+		<Button
+			android:id="@+id/bt3"
+			android:layout_height="59dp"
+			android:layout_width="120dp"
+			android:layout_marginTop="2dp"
+			android:background="@drawable/mbtn"
+			android:text="전체게시글"
+            android:elevation="5dp"/>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="2dp"
+		android:orientation="horizontal">
+		<Button
+			android:id="@+id/bt5"
+			android:layout_height="60dp"
+			android:layout_width="242dp"
+			android:background="@drawable/mbtn"			
+			android:text="급식표"
+            android:elevation="5dp"/>
+	</LinearLayout>
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="2dp"
+		>	
+		<Button
+			android:id="@+id/bt4"
+			android:layout_height="80dp"
+			android:layout_width="80dp"
+			android:background="@drawable/mbtn"			
+			android:text="더보기"
+            android:elevation="5dp"/>
+		<Button
+			android:id="@+id/bt7"
+			android:layout_height="80dp"
+			android:layout_toRightOf="@id/bt4"
+			android:layout_width="80dp"
+			android:layout_marginLeft="1dp"
+			android:background="@drawable/mbtn"			
+			android:text="YBS"
+            android:elevation="5dp"/>
+		<Button
+			android:id="@+id/bt6"
+			android:layout_height="80dp"
+			android:layout_width="80dp"
+			android:layout_toRightOf="@id/bt7"
+			android:layout_marginLeft="1dp"
+			android:background="@drawable/mbtn"			
+			android:text="일정"
+            android:elevation="5dp"/>
+	</RelativeLayout>
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"	
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="※이 앱은 상업적 용도가 아닙니다※"
+            android:elevation="5dp"/>
+
+	</LinearLayout>	
+	
+</LinearLayout>
+

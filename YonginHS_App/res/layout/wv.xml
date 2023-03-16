@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgbar"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+
+
+	<ProgressBar
+
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:max="100"
+        android:visibility="gone" />
+
+    <WebView
+
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+
+        android:id="@+id/navigateBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center"
+        android:background="@drawable/bgbar"
+        android:padding="5dp">
+
+		<Button
+
+			android:id="@+id/btnBack"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:background="@drawable/bgback" />
+
+		<Button
+
+			android:id="@+id/btnHome"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:layout_marginLeft="30dp"
+			android:layout_toRightOf="@+id/btnBack"
+			android:background="@drawable/bghome" />
+
+		<Button
+
+			android:id="@+id/btnNext"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:layout_marginLeft="30dp"
+			android:layout_toRightOf="@+id/btnHome"
+			android:background="@drawable/bgforward" />
+
+		
+		
+
+		</LinearLayout>
+
+
+
+
+</LinearLayout>
+

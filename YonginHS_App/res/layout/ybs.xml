@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical" >
+
+	<Button
+		android:id="@+id/bt1"
+		android:layout_height="50dp"
+		android:layout_width="240dp"
+		android:background="@drawable/mbtn"
+		android:layout_gravity="center_horizontal"	
+		android:text="YBS점심방송 노래, 사연신청"
+        android:elevation="5dp"/>
+	<Button
+		android:id="@+id/bt2"
+		android:layout_height="50dp"
+		android:layout_width="240dp"
+		android:background="@drawable/mbtn"	
+		android:layout_marginTop="2dp"
+		android:layout_gravity="center_horizontal"	
+		android:text="YBS 페이스북"
+        android:elevation="5dp"/>
+</LinearLayout>

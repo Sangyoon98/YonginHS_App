@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+		<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:src="@drawable/gn"/>
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:text="본교 앱 방문을 환영합니다.
+
+			우리학교는 1954년 개교한 이래, 성실·명랑·협동의 교훈 아래 1만 명이 넘는 훌륭한 인물들을 배출하였고, 현재는 1600여 명의 학생들이 120여 명의 교직원과 함께 미래를 개척해 나가는 지역사회의 명문학교로 성장하였습니다.
+
+			창의성과 인성을 갖춘 민주시민 육성을 지표로 하여 미래 사회를 주도할 세계인, 자신의 삶을 개척하고 사회에 이바지하는 봉사인, 창의적인 사고로 새로운 지식을 탐구하는 창조인, 지·덕·체를 겸비한 진취적인 교양인 육성을 교육목표로 지도에 최선을 다하고 있습니다.
+
+			창의적인 교육과정 운영과 교육의 본질에 충실한 학교 운영으로 학력을 도모하고, 미래에 행복한 삶을 영위할 수 있는 인성을 기르며, 학생의 인권과 교사의 교육권이 다함께 존중받는 성숙한 학교문화 속에서 학생들이 웅지를 품고 웅비하는 용고인이 되도록 교육력을 집약하겠습니다.
+
+			언제나 변함없는 관심과 사랑으로 지켜봐 주시고 학교 발전을 위하여 좋은 지도와 조언을 부탁드립니다. 감사합니다."/>
+	
+	</LinearLayout>
+</ScrollView>

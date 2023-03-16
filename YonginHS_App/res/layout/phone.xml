@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center"	
+	android:orientation="vertical">
+	<Button
+		android:id="@+id/ph1"
+		android:layout_height="50dp"
+		android:layout_width="240dp"
+		android:background="@drawable/mbtn"		
+		android:text="행정실"
+        android:elevation="5dp"/>
+	<Button
+		android:id="@+id/ph2"
+		android:layout_height="50dp"
+		android:layout_width="240dp"
+		android:background="@drawable/mbtn"	
+		android:layout_marginTop="2dp"	
+		android:text="교무실"
+        android:elevation="5dp"/>
+	<Button
+		android:id="@+id/ph3"
+		android:layout_height="50dp"
+		android:layout_width="240dp"
+		android:background="@drawable/mbtn"	
+		android:layout_marginTop="2dp"	
+		android:text="당직실"
+        android:elevation="5dp"/>
+</LinearLayout>
